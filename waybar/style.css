@@ -1,0 +1,31 @@
+*{
+  font-family : JetBrains Mono;
+  color : white;
+  font-size : 19px;
+}
+window#waybar{
+  background : rgba(30 , 30 , 46 , 0);
+  }
+#workspaces button{
+  padding : 0 16px;
+}
+#workspaces button *{
+  font-size: 25px;
+}
+#workspaces button.focused{
+  background-color : rgba(186,194,222,0.15);
+}
+#workspaces button:hover {
+	background: rgba(0,0,0,0.2);
+  border : none;
+  outline : none;
+  padding : 0 16px;
+}
+#battery{
+  padding : 0 15px;
+  font-size : 25px;
+}
+#clock{
+  font-size : 25px;
+  padding-right : 18px;
+  }
