@@ -1,0 +1,37 @@
+* {
+  font-family: Agave Nerd Font;
+  color: white;
+  font-size: 16px;
+}
+
+window#waybar {
+  background: rgba(34, 34, 51, 0.7);
+
+}
+
+#workspaces button {
+  padding: 0 7px;
+}
+
+#workspaces button * {
+  font-size: 20px;
+}
+
+#workspaces button.focused {
+  background-color: rgba(186, 194, 222, 0.15);
+}
+
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0 16px;
+}
+
+#battery {
+  padding: 0 9px;
+  font-size: 20px;
+}
+
+#clock {
+  font-size: 20px;
+  padding-right: 9px;
+}
