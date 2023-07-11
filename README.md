@@ -1,5 +1,4 @@
-# dotfiles
-A config
+# Config
 # WM 
-<a src="https://github.com/WillPower3309/swayfx">SwayFx</a>
+[SwayFX](https://github.com/WillPower3309/swayfx)
 
