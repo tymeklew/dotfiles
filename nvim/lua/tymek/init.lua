@@ -1,0 +1,5 @@
+require 'tymek.plugins'
+require 'tymek.opt'
+require 'tymek.keybinds'
+require 'tymek.lsp'
+require 'tymek.bar'

@@ -23,5 +23,5 @@ window :
       y : 10
     window : buttonless
     decorations : none
-    opacity : 0.78
+    opacity : 0.84
   

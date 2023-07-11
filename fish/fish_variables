@@ -6,6 +6,7 @@ SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fish
 SETUVAR _fisher_jorgebucaran_2F_hydro_files:\x7e/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e\x7e/\x2econfig/fish/functions/fish_prompt\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/hydro\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/hydro\x1ehydro\x1ejhillyerd/plugin\x2dgit
 SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _hydro_git_1026:master\x20
 SETUVAR _hydro_git_1051:main\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_1055:master\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_1066:main\uf6e2\uf680\uf6a2\x20
@@ -51,6 +52,7 @@ SETUVAR _hydro_git_1666:\x1d
 SETUVAR _hydro_git_17318:main\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_17398:main\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_17454:master\uf6e2\uf680\uf6a2\x20
+SETUVAR _hydro_git_17712:master\u2022\x20
 SETUVAR _hydro_git_1802:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_18173:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_19537:master\uf6e2\uf680\uf6a2\x20
@@ -65,6 +67,7 @@ SETUVAR _hydro_git_21044:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_2116:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_2144:master\u2022\x20
 SETUVAR _hydro_git_2159:main\u00e2\u0080\u00a2\x20
+SETUVAR _hydro_git_22012:\x1d
 SETUVAR _hydro_git_22820:v3\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_22973:master\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_23041:master\u00e2\u0080\u00a2\x20
@@ -82,6 +85,7 @@ SETUVAR _hydro_git_2803:main\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_28527:master\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_2860:\x1d
 SETUVAR _hydro_git_2906:master\uf6e2\uf680\uf6a2\x20
+SETUVAR _hydro_git_29530:\x1d
 SETUVAR _hydro_git_29613:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_3199:main\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_33929:master\uf6e2\uf680\uf6a2\x20
@@ -123,7 +127,7 @@ SETUVAR _hydro_git_65503:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_658:master\u2022\x20
 SETUVAR _hydro_git_66780:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_675:master\u2022\x20
-SETUVAR _hydro_git_68034:\x1d
+SETUVAR _hydro_git_68034:linuck\u2022\x20
 SETUVAR _hydro_git_714:master\u2022\x20
 SETUVAR _hydro_git_720:master\u2022\x20
 SETUVAR _hydro_git_7291:main\uf6e2\uf680\uf6a2\x20
@@ -141,6 +145,7 @@ SETUVAR _hydro_git_90131:main\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_9112:master\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_91193:main\u00e2\u0080\u00a2\x20
 SETUVAR _hydro_git_9178:\x1d
+SETUVAR _hydro_git_920:master\u2022\x20
 SETUVAR _hydro_git_9269:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_940:master\uf6e2\uf680\uf6a2\x20
 SETUVAR _hydro_git_958:master\uf6e2\uf680\uf6a2\x20
