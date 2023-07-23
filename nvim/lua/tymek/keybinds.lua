@@ -1,6 +1,7 @@
 vim.keymap.set('n', '<space>f', '<cmd>Telescope find_files<cr>')
 vim.keymap.set('n', '<meta>s', '<cmd>write<cr>')
 vim.api.nvim_set_keymap("i", "<Tab>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+vim.keymap.set('i', 'Tab', 'v:lua.tab_complete()', { expr = true })
 
 local cmp = require("cmp")
 cmp.setup({

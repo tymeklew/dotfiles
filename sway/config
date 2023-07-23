@@ -22,7 +22,7 @@ set $menu wofi --show drun
 #
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
-output * background ~/.config/wallpapers/boobs.jpeg fill
+output * background ~/.config/wallpapers/other.jpg fill
 ### Idle configuration
 #
 # Example configuration:
@@ -192,10 +192,10 @@ bindsym $mod+r mode "resize"
 default_border none
 xwayland enable
 blur enable
-corner_radius 4
+corner_radius 10
 blur_passes 2
+blur_radius 2
 blur_xray disable
-blur_radius 1
 
 bar { 
      swaybar_command waybar
