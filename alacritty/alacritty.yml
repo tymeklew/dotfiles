@@ -1,0 +1,7 @@
+shell:
+  program : /opt/homebrew/bin/fish 
+font :
+  size : 18
+  normal :
+    family : Agave Nerd Font
+  
