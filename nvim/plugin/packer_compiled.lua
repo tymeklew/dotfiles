@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/crates.nvim",
     url = "https://github.com/saecki/crates.nvim"
   },
+  ["dropbar.nvim"] = {
+    loaded = true,
+    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/dropbar.nvim",
+    url = "https://github.com/Bekaboo/dropbar.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",

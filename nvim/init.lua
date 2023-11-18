@@ -24,14 +24,13 @@ require('packer').startup(function(use)
    use "nvim-tree/nvim-web-devicons"
    use 'saecki/crates.nvim'
    use { "catppuccin/nvim", as = "catppuccin" }
+   use 'Bekaboo/dropbar.nvim'
    use {
       'nvim-telescope/telescope.nvim', tag = '0.1.4',
       -- or                            , branch = '0.1.x',
       requires = { { 'nvim-lua/plenary.nvim' } }
    }
 end)
-
-
 
 require('crates').setup {
    src = {
@@ -41,8 +40,8 @@ require('crates').setup {
    },
 }
 
+
 require 'nvim-treesitter.configs'.setup {
-   -- A list of parser names, or "all" (the five listed parsers should always be installed)
    ensure_installed = { "c", "lua", "rust", "html", "c_sharp", "css", "python", "javascript", "typescript" },
    sync_install = false,
    auto_install = true,
@@ -89,7 +88,15 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 vim.keymap.set('n', '<space>d', "<cmd>lua vim.lsp.buf.hover()<cr>", {})
+vim.keymap.set('n', '<space>e', "<cmd>Ex<cr>", {});
 vim.api.nvim_set_keymap('n', '<space>d', '<cmd>lua vim.lsp.buf.hover()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<space>c', '<cmd>lua vim.lsp.buf.definition()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<space>q',
+   '<cmd>lua require("telescope.builtin").lsp_document_symbols({ symbols = { "Function", "Struct" } })<CR>',
+   { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<space>g',
+   '<cmd>lua require("telescope.builtin").lsp_workspace_symbols({ symbols = { "Function" , "Struct"} })<CR>',
+   { noremap = true, silent = true })
 vim.keymap.set("n", "<space>x", function() require("trouble").toggle() end)
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
