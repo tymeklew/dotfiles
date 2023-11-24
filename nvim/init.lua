@@ -23,8 +23,10 @@ require('packer').startup(function(use)
    use 'github/copilot.vim'
    use "nvim-tree/nvim-web-devicons"
    use 'saecki/crates.nvim'
+   use 'navarasu/onedark.nvim'
    use { "catppuccin/nvim", as = "catppuccin" }
    use 'Bekaboo/dropbar.nvim'
+   use 'AlexvZyl/nordic.nvim'
    use {
       'nvim-telescope/telescope.nvim', tag = '0.1.4',
       -- or                            , branch = '0.1.x',
@@ -49,6 +51,7 @@ require 'nvim-treesitter.configs'.setup {
       enable = true,
    }
 }
+
 local lsp_zero = require('lsp-zero')
 lsp_zero.on_attach(function(client, bufnr)
    lsp_zero.default_keymaps({ buffer = bufnr })
@@ -105,7 +108,8 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
       update_in_insert = true,
    }
 )
-require("catppuccin").setup({
-   flavour = "mocha"
-})
-vim.cmd.colorscheme "catppuccin"
+require('onedark').setup {
+   style = 'cool'
+}
+
+require('onedark').load()
