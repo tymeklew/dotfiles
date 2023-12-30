@@ -89,21 +89,6 @@ _G.packer_plugins = {
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
-  },
-  ["crates.nvim"] = {
-    loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/crates.nvim",
-    url = "https://github.com/saecki/crates.nvim"
-  },
-  ["dropbar.nvim"] = {
-    loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/dropbar.nvim",
-    url = "https://github.com/Bekaboo/dropbar.nvim"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -118,11 +103,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["nordic.nvim"] = {
-    loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/nordic.nvim",
-    url = "https://github.com/AlexvZyl/nordic.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -139,16 +119,6 @@ _G.packer_plugins = {
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
-  },
-  ["onedark.nvim"] = {
-    loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/onedark.nvim",
-    url = "https://github.com/navarasu/onedark.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -159,15 +129,20 @@ _G.packer_plugins = {
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["trouble.nvim"] = {
+  ["todo-comments.nvim"] = {
     loaded = true,
-    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/trouble.nvim",
-    url = "https://github.com/folke/trouble.nvim"
+    path = "/Users/tymek/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   }
 }
 
